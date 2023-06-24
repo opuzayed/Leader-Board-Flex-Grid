@@ -84,3 +84,6 @@ hr {
 .fa-star.filled{
   color:#FFC014;
 }
+.fa-star.empty{
+  color:#AEAEAE;
+}
