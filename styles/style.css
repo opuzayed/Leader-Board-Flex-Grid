@@ -49,3 +49,13 @@ hr {
   width: 224px;
   height: 127px;
 }
+.blog-nfo{
+  margin-left: 16px;
+}
+.blog-title{
+  font-size: 20px;
+}
+.blog-author{
+  color:#9F9F9F;
+  font-size: 16px;
+}
