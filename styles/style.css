@@ -81,6 +81,9 @@ hr {
   width: 224px;
   height: 127px;
 }
+.course-info{
+  display: flex;
+}
 .fa-star{
   font-size: 12px;
 }
