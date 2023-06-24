@@ -1,26 +1,30 @@
 /* fonts */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 /* Utilities */
-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3f1ff;
 }
-.container{
-    background-color: #FFF;
-    width: 870px;
-    border-radius: 5px;
-    margin: 0 auto;
+.container {
+  background-color: #fff;
+  width: 870px;
+  border-radius: 5px;
+  margin: 0 auto;
 }
 /* top-players style start */
-.players{
-    display:grid;
-    grid-template-columns: repeat(3,1fr);
+.section-title {
+  color: #562eff;
+  font-size: 24px;
 }
-.player{
-    display: flex;
-    align-items: center;
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
-.player img{
-    width:56px;
-    height:56px;
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
 }
