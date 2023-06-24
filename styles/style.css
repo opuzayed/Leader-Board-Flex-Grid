@@ -81,6 +81,9 @@ hr {
   width: 224px;
   height: 127px;
 }
+.fa-star{
+  font-size: 12px;
+}
 .fa-star.filled{
   color:#FFC014;
 }
