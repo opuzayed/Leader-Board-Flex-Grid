@@ -21,7 +21,7 @@ body {
 .players {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap:30px;
+  grid-row-gap: 30px;
 }
 .player {
   display: flex;
@@ -31,6 +31,7 @@ body {
   width: 56px;
   height: 56px;
 }
-.player-name{
-    margin-left: 16px;
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
 }
