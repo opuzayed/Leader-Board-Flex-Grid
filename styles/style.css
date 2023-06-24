@@ -42,6 +42,10 @@ hr {
   font-size: 18px;
 }
 /* top-blog styles start */
+.blogs{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+}
 .blog{
   display: flex;
 }
@@ -49,6 +53,7 @@ hr {
   width: 224px;
   height: 127px;
 }
+
 .blog-nfo{
   margin-left: 16px;
 }
