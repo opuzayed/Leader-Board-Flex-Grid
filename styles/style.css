@@ -5,6 +5,12 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
 }
+.container{
+    background-color: #FFF;
+    width: 870px;
+    border-radius: 5px;
+    margin: 0 auto;
+}
 /* top-players style start */
 .players{
     display:grid;
