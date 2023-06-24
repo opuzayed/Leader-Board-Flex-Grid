@@ -12,6 +12,9 @@ body {
   border-radius: 5px;
   margin: 0 auto;
 }
+hr{
+    border:1px solid #D1D1D1;
+}
 /* top-players style start */
 .section-title {
   color: #562eff;
