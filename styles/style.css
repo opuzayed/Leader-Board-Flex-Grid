@@ -102,3 +102,11 @@ hr {
 .rating{
   margin-left: 10px;
 }
+.course-duration{
+  background-color: #FEE5DF;
+  border-radius: 15px;
+  color:#FF4A60;
+}
+.fa-clock{
+  margin-right: 5px;
+}
