@@ -42,6 +42,9 @@ hr {
   font-size: 18px;
 }
 /* top-blog styles start */
+.blog{
+  display: flex;
+}
 .thumbnail img {
   width: 224px;
   height: 127px;
