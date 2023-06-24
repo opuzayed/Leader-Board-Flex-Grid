@@ -77,36 +77,46 @@ hr {
   color: #562eff;
 }
 /* Top-Courses Styles Start */
-.course{
-  box-shadow:rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  border-radius: 5px;
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
 }
-.course-banner img{
+.course {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 5px;
+  padding: 25px;
+}
+.course-banner img {
   width: 224px;
   height: 127px;
 }
-.course-info{
+/* .course-details{
+  margin-bottom: 4px;
+} */
+.course-info {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.fa-star{
+.fa-star {
   font-size: 12px;
 }
-.fa-star.filled{
-  color:#FFC014;
+.fa-star.filled {
+  color: #ffc014;
 }
-.fa-star.empty{
-  color:#AEAEAE;
+.fa-star.empty {
+  color: #aeaeae;
 }
-.rating{
+.rating {
   margin-left: 10px;
 }
-.course-duration{
-  background-color: #FEE5DF;
+.course-duration {
+  background-color: #fee5df;
   border-radius: 15px;
-  color:#FF4A60;
+  color: #ff4a60;
+  padding: 5px;
 }
-.fa-clock{
+.fa-clock {
   margin-right: 5px;
 }
