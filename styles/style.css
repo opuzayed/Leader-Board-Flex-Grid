@@ -12,12 +12,12 @@ body {
   border-radius: 5px;
   margin: 0 auto;
 }
-hr{
-    border:1px solid #D1D1D1;
+hr {
+  border: 1px solid #d1d1d1;
 }
 /* top-players style start */
-.top-players{
-    margin-bottom: 30px;
+.top-players {
+  margin-bottom: 30px;
 }
 .section-title {
   color: #562eff;
@@ -40,4 +40,9 @@ hr{
 .player-name {
   margin-left: 16px;
   font-size: 18px;
+}
+/* top-blog styles start */
+.thumbnail img {
+  width: 224px;
+  height: 127px;
 }
