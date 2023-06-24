@@ -14,6 +14,7 @@ body {
 }
 hr {
   border: 1px solid #d1d1d1;
+  margin-bottom: 27px;
 }
 /* top-players style start */
 .top-players {
